@@ -1,0 +1,26 @@
+<app-header titulo="Ion grid"></app-header>
+
+<ion-content class="ion-padding" fullscreen>
+
+  <ion-grid >
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6"
+      *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]">
+      <ion-card>
+        <ion-img src="https://i.pinimg.com/originals/ff/ba/e0/ffbae06e278676d2e8550452cd41cb0c.png"></ion-img>
+      </ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+        <ion-card-title>Awesome Title</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Awesome content
+      </ion-card-content>
+    
+    </ion-col>
+
+   
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
