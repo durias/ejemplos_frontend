@@ -14,7 +14,7 @@ export class ImagenPipe implements PipeTransform {
     }
     
     const imgUrl=`${URL}/${size}${img}`;
-    console.log('URL',imgUrl);
+   //  console.log('URL',imgUrl);
     return imgUrl;
   }
 
